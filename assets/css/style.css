@@ -1,56 +1,88 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+	background-image: url(../images/carbon_fibre/carbon_fibre.png);
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+}
+
 header {
 	background-color: #ffffff;
+	border-bottom: solid;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 	height: 90px;
 }
 
-#name {
+h1 {
+	color: #ffffff;
+	font-size: 24px;
+	font: 'Georgia';
+}
+
+.name {
 	background-color: #4aaaa5;
 	color: #ffffff;
-	font-family: Times;
+	display: inline-block;
 	float: left;
-	margin-left: 88px;
-	width: 320px;
 	height: 90px;
+	margin-left: 60px;
+	padding: 20px;
 	text-align: center;
 }
 
 .top-nav-menu {
-	float: right;
-	margin-right: 88px;
-	font-family: Times;
+	background-color: #ffffff;
 	color: #777777;
-}
-
-.bigcontent {
-	background-image:url(../images/carbon_fibre/carbon_fibre.png);
-}
-
-h2{
-	font-family: Times;
+	display: inline-block;
+	float:right;
+	text-align: center;
+	text-decoration: none;
 }
 
 .content {
-	width: 650px;
-	margin-left: 88px;
 	background-color: #ffffff;
-	font-family: Helvetica;
-	color: #777777;
+	float: left;
+	margin-left: 60px;
+	width: 650px;
+}
+
+.photo {
+	float: left;
 }
 
 p {
-
+	color: #777777;
+	padding: 10px;
+	margin: 10px;
 }
 
 aside {
+	background-color: #ffffff;
 	float: right;
-	margin-right: 88px;
-	font-family: Times;
+	margin-right: 60px;
 	width: 270px;
 }
 
-
 footer {
-	text-align: center;
 	background-color: #666666;
-	font-family: Helvetica;
+	border-top: solid;
+	border-color: #4aaaa5;
+	clear: both;
+	color: #ffffff;
+	height: 90px;
+	text-align: center;
+}
+
+.btn {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline-block;
+	margin: 0;
+	padding: 10px 30px;
+	text-align: center;
 }
