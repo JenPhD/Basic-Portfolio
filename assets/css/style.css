@@ -151,16 +151,88 @@ h3 {
 	text-align: center;
 }
 
-#img {
-	position: absolute;
+#project1 {
+	display:inline-block;
+	margin: 30px;
+	position: relative;
 }
 
-#hangman {
+#project1 > a {
 	background-color: #4aaaa5;
 	color: #ffffff;
-	display: inline-block;
-	margin-bottom: 20px;
+	display: inline;
+	padding: 15px;
+	bottom: 20px;
+	position: absolute;
+	text-align: center;
+	width: 250px;
+}
+
+#project2 {
+	display:inline-block;
+	margin: 30px;
 	position: relative;
+}
+
+#project2 > a {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline;
+	padding: 15px;
+	bottom: 20px;
+	position: absolute;
+	text-align: center;
+	width: 250px;
+}
+
+#project3 {
+	display:inline-block;
+	margin: 30px;
+	position: relative;
+
+}
+
+#project3 > a {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline;
+	padding: 15px;
+	bottom: 20px;
+	position: absolute;
+	text-align: center;
+	width: 250px;
+}
+
+#project4 {
+	display:inline-block;
+	margin: 30px;
+	position: relative;
+}
+
+#project4 > a {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline;
+	padding: 15px;
+	bottom: 20px;
+	position: absolute;
+	text-align: center;
+	width: 250px;
+}
+
+#project5 {
+	display:inline-block;
+	margin: 30px;
+	position: relative;
+}
+
+#project5 > a {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline;
+	padding: 15px;
+	bottom: 20px;
+	position: absolute;
 	text-align: center;
 	width: 250px;
 }
