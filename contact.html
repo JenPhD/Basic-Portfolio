@@ -13,11 +13,12 @@
 
 <!-- This is the top of the page with navigation links to the three pages -->
 
-		<h1><strong>Dr. Jennifer Pemberton</strong></h1>
+<header>
+	<h1 class="name"><strong>Dr. Jennifer Pemberton</strong></h1>
 
 	<div class="top-nav-menu">
-		<a href="index.html" title="About Me">About</a>
-		<a href="portfolio.html" title="My Portfolio">Portfolio</a>
+		<a href="index.html" title="About Me" style="border-right:1px solid #cccccc">About</a>
+		<a href="portfolio.html" title="My Portfolio" style="border-right:1px solid #cccccc">Portfolio</a>
 		<a href="contact.html" title="Contact Info">Contact</a>
 	</div>
 </header>
@@ -26,32 +27,48 @@
 <section class="content">
 
 		<h2>Contact</h2>
-		<!--Insert block here-->
+		<hr>
 
-		<h3>Name</h3>
-		<!--Insert block here-->
+		<form class="user">
+		Name:<br>
+		<input type="text" placeholder="Your Name" style="width: 590px"><br>
+		</form>
 
-		<h3>Email</h3>
-		<!--Insert block here-->
+		<form class="user">
+		Email:<br>
+		<input type="text" placeholder="example@gmail.com" style="width: 590px"><br>
+		</form>
 
-		<h3>Message</h3>
-		<!--Insert block here-->
+		<form class="message">
+		Message:<br>
+		<input type="text" style="width: 590px; height: 300px"><br>
+		</input>
 
 		<!--Submit button-->
 		<a class="btn">Submit</a>
 	
-	</section>
+</section>
 
 	<aside class="right">
-		<h3>Connect with Me</h3> <br>
-		<img src=assets/images/github.png>
-		<img src=assets/images/linkedin.png>
-		<img src=assets/images/stackoverflow.png>
+		<h3>Connect with Me</h3> 
+
+		<hr>
+		
+		<a href="https://github.com/JenPhD">
+  			<img src="assets/images/github.png" alt="Jen on github">
+		</a>
+		<a href="https://www.linkedin.com/in/jennifer-pemberton-411a3335?trk=hp-identity-name">
+			<img src="assets/images/linkedin.png" alt="Jen on linkedin">
+		</a>
+		<a href="http://stackoverflow.com/users/6406619/jenphd">
+			<img src="assets/images/stackoverflow.png" alt="Jen on stackoverflow">
+		</a>
 	</aside>
 </div>
 
 
-<footer class="main footer">
+<footer>
 	<small>&copy; Copyright 2016 Jennifer Pemberton</small>
 </footer>
+
 </body>
